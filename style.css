@@ -13,7 +13,8 @@ a {
   text-decoration: none;
 }
 
-.header-bg {
+.header-bg,
+.row {
   background-color: #1d242a;
 }
 
@@ -96,14 +97,14 @@ a {
   .header a:after {
     display: none;
   }
+}
 
-  @media (max-width: 600px) {
-    .header-menu {
-      gap: 12px;
-    }
+@media (max-width: 600px) {
+  .header-menu {
+    gap: 12px;
+  }
 
-    .header-menu a {
-      padding: 8px 12px;
-    }
+  .header-menu a {
+    padding: 8px 12px;
   }
 }
