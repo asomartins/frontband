@@ -1,0 +1,34 @@
+@import 'global/header.css';
+@import 'global/global.css';
+@import 'util/componentes.css';
+@import 'global/footer.css';
+
+.sobre {
+  padding-bottom: 80px;
+}
+
+.sobre-bg {
+  background: #000000;
+  color: #ffffff;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sobre h1 {
+  margin-bottom: 32px;
+  font-size: 45px;
+  font-family: 'Comfortaa', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sobre p {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 1.5;
+  color: #b2b2b2;
+}
